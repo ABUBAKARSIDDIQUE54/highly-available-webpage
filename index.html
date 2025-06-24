@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Porsche Luxury Cars</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Porsche Premium Collection</h1>
+    <p>Precision. Performance. Porsche.</p>
+  </header>
+
+  <main>
+    <!-- Car: Porsche 911 -->
+    <section class="car">
+      <img src="1.png" alt="Porsche 911 Carrera">
+      <div class="car-details">
+        <h2>Porsche 911 Carrera</h2>
+        <p class="price">$114,400</p>
+        <p>A legendary sports car that defines driving pleasure.</p>
+        <ul>
+          <li>🏁 Horsepower: 379 hp</li>
+          <li>🚀 0–100 km/h: 4.2 sec</li>
+          <li>🔝 Top Speed: 293 km/h</li>
+          <li>⚙️ Engine: Twin-turbo 3.0L flat-six</li>
+          <li>🛞 Drivetrain: RWD / AWD</li>
+        </ul>
+        <a href="#" class="book-btn">Book Now</a>
+      </div>
+    </section>
+
+    <!-- Taycan -->
+    <section class="car">
+      <img src="2.jpg" alt="Porsche Taycan">
+      <div class="car-details">
+        <h2>Porsche Taycan</h2>
+        <p class="price">$90,900</p>
+        <p>Futuristic all-electric Porsche with stunning performance.</p>
+        <ul>
+          <li>🔋 Horsepower: 402 hp (Base)</li>
+          <li>🚀 0–100 km/h: 5.1 sec</li>
+          <li>🔝 Top Speed: 230 km/h</li>
+          <li>⚡ Battery: 79.2 kWh</li>
+          <li>🔌 Range: ~400 km</li>
+        </ul>
+        <a href="#" class="book-btn">Book Now</a>
+      </div>
+    </section>
+
+    <!-- Cayenne -->
+    <section class="car">
+      <img src="3.jpg" alt="Porsche Cayenne">
+      <div class="car-details">
+        <h2>Porsche Cayenne</h2>
+        <p class="price">$79,200</p>
+        <p>Luxury SUV with performance soul and family comfort.</p>
+        <ul>
+          <li>🏁 Horsepower: 348 hp</li>
+          <li>🚀 0–100 km/h: 5.9 sec</li>
+          <li>🔝 Top Speed: 245 km/h</li>
+          <li>⚙️ Engine: 3.0L Turbo V6</li>
+          <li>🧭 AWD with Off-road modes</li>
+        </ul>
+        <a href="#" class="book-btn">Book Now</a>
+      </div>
+    </section>
+
+    <!-- Macan -->
+    <section class="car">
+      <img src="4.jpeg" alt="Porsche Macan">
+      <div class="car-details">
+        <h2>Porsche Macan</h2>
+        <p class="price">$60,900</p>
+        <p>Compact SUV for the urban racer who craves Porsche DNA.</p>
+        <ul>
+          <li>🏁 Horsepower: 261 hp</li>
+          <li>🚀 0–100 km/h: 6.4 sec</li>
+          <li>🔝 Top Speed: 232 km/h</li>
+          <li>⚙️ Engine: 2.0L Turbocharged I4</li>
+          <li>🛞 Standard AWD</li>
+        </ul>
+        <a href="#" class="book-btn">Book Now</a>
+      </div>
+    </section>
+
+    <!-- Panamera -->
+    <section class="car">
+      <img src="5.jpg" alt="Porsche Panamera">
+      <div class="car-details">
+        <h2>Porsche Panamera</h2>
+        <p class="price">$99,900</p>
+        <p>Executive sedan with sports car dynamics.</p>
+        <ul>
+          <li>🏁 Horsepower: 325 hp</li>
+          <li>🚀 0–100 km/h: 5.6 sec</li>
+          <li>🔝 Top Speed: 270 km/h</li>
+          <li>⚙️ Engine: 2.9L Twin-Turbo V6</li>
+          <li>🛋️ Luxurious interior with rear-seat comfort</li>
+        </ul>
+        <a href="#" class="book-btn">Book Now</a>
+      </div>
+    </section>
+
+    <!-- 718 Boxster -->
+    <section class="car">
+      <img src="6.jpg" alt="Porsche 718 Boxster">
+      <div class="car-details">
+        <h2>Porsche 718 Boxster</h2>
+        <p class="price">$70,400</p>
+        <p>Open-top mid-engine roadster built for spirited drives.</p>
+        <ul>
+          <li>🏁 Horsepower: 300 hp</li>
+          <li>🚀 0–100 km/h: 5.1 sec</li>
+          <li>🔝 Top Speed: 275 km/h</li>
+          <li>⚙️ Engine: Turbocharged 2.0L flat-four</li>
+          <li>🌞 Convertible</li>
+        </ul>
+        <a href="#" class="book-btn">Book Now</a>
+        <div>
+        <form action="https://5c5zpdxtdb.execute-api.eu-north-1.amazonaws.com/test/book" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="text" name="phone" placeholder="Phone Number" required>
+          <input type="text" name="model" value="Porsche 911" readonly>
+          <button type="submit">Book Now</button>
+        </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Porsche Dealership | Designed by Abubakar</p>
+  </footer>
+</body>
+</html>
